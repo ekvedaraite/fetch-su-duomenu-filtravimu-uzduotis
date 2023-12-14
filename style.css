@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: default;
+}
+
+body {
+    background: black;
+    color: lightcoral;
+
+}
+
+#vipFilter{
+    margin: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#vipFilter:hover {
+    cursor: pointer;
+}
+
+label {
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+#searchInput {
+    margin: 10px;
+    margin-left: 30px;
+    height: 30px;
+    width: 200px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    padding: 5px;
+}
+
+#searchInput::placeholder {
+    color: white;
+}
+
+#searchInput:hover,
+button:hover {
+    cursor: pointer;
+    background: lightcoral;
+}
+
+button {
+    height: 30px;
+    width: 50px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    padding: 5px;
+}
+
+table.user-table {
+    border: 3px solid red;
+    margin-top: 20px;
+    width: 60%;
+    border-collapse: collapse;
+}
+
+table.user-table th, table.user-table td {
+    text-align: center;
+    border: 1px solid red;
+}
